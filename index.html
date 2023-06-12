@@ -5,12 +5,14 @@
     <title>HTML&CSS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body style="margin: 0; padding: 0;">
 
     <!-- Header -->
-    <header style="background-color: aliceblue; position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;">
+    <header
+        style="background-color: aliceblue; position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;">
         <a href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
         <div>
             <a href="#vasara">Vasara</a>
@@ -22,6 +24,11 @@
         <img src="resources/Pavasaris.jpg" alt="Pavasaris">
         <div>
             <h1>Pavasaris</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel animi in maxime. Nihil neque
+                accusamus recusandae facilis, ipsa ea. Omnis dicta laudantium voluptates possimus consectetur adipisci
+                dolorem minima obcaecati?
+            </p>
         </div>
         <div id="vasara">
             <img src="resources/Vasara.jpg" alt="Vasara">
@@ -38,18 +45,51 @@
         </div>
 
         <!-- Exercises -->
-        <div id="exercises">
-            <h1>Uzdevumi</h1><br>
-            <p>Nomaini visiem tekstiem fontu.</p>
-            <p>Sakārto bilžu un tekstu novietojumu.</p>
-            <p>Pieliec tekstu zem virsrakstiem.</p>
-            <p>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</p>
-            <p>Pieliec stilu header daļai, lai tā atgādinātu header.</p>
-            <p>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</p>
-            <p>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</p>
-            <p>Pievieno karti.</p>
-            <p>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</p>
-        </div>
+        <ul id="exercises">
+            <h2>Uzdevumi</h2><br>
+            <li>Nomaini visiem tekstiem fontu.</li>
+            <li>Sakārto bilžu un tekstu novietojumu.</li>
+            <li>Pieliec tekstu zem virsrakstiem.</li>
+            <li>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</li>
+            <li>Pieliec stilu header daļai, lai tā atgādinātu header.</li>
+            <li>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</li>
+            <li>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</li>
+            <li>Pievieno karti.</li>
+            <li>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</li>
+        </ul>
+
+        <div class="flex-container">
+            <div class="flex-items"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quidem maiores unde fugit! Animi laboriosam suscipit quidem dolores dolore, repellat ipsam sapiente doloremque laborum veniam nemo molestiae accusamus nam nobis!
+            </div>
+            
+            <div class="flex-items"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure voluptatem vero est asperiores corrupti unde hic. Molestiae a nihil ipsum cumque voluptas itaque minus velit? Tempora quod quam doloremque.
+
+            </div>
+            <div class="flex-items"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic natus quam autem, eum odit quisquam ipsam quos, consequuntur sunt repudiandae tempore magni quaerat labore ab error cumque dolorum! Ad, non?
+
+            </div>
+            <div class="flex-items"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dicta alias reiciendis hic voluptatibus dignissimos neque, veritatis, tempore repudiandae recusandae totam? Ipsum dolorem sit rerum neque eveniet temporibus placeat ratione!
+
+            </div>
+            <div class="flex-items"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consequuntur iste velit ab eius dolorum mollitia dolore autem laboriosam! Quia tempore neque non illum, voluptatum quo earum minus est cumque?
+
+            </div>
+         </div>
+
+        <table>
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>100$</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>80$</td>
+            </tr>
+        </table>
 
         <!-- Footer -->
         <footer>
